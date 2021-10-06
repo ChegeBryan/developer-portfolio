@@ -117,8 +117,10 @@ export const educationInfo = [
     descBullets: [
       'Data structures & Algorithms',
       'UNIX',
+      'Database Mana'
       'Web Design and Development',
       'Software Project Management',
+      'Data Mining and Knowledge Discovery'
     ],
   },
   {
