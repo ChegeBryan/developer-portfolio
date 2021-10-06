@@ -115,12 +115,12 @@ export const educationInfo = [
     duration: 'September 2016 - September 2021',
     desc: 'Relevant Courses:',
     descBullets: [
-      'Data structures & Algorithms',
       'UNIX',
-      'Database Mana'
+      'Data structures & Algorithms',
+      'Database Management',
       'Web Design and Development',
       'Software Project Management',
-      'Data Mining and Knowledge Discovery'
+      'Data Mining and Knowledge Discovery',
     ],
   },
   {
@@ -147,13 +147,15 @@ export const experience = [
     date: 'May 2021 – Aug 2021',
     desc: 'Developed a demo mobile application app for students to apply for scholarships using Flutter.',
     descBullets: [
-      'State management Provider',
       'Improved on UI/UX',
+      'Consuming APIs',
+      'State Management Provider',
+      'Design to Code translation',
       'Employed CI/CD using Github Actions',
     ],
   },
   {
-    role: 'Full-Stack developer',
+    role: 'Full-Stack Developer',
     company: 'Andela',
     companylogo: '/img/icons/common/andela.jpeg',
     date: 'Jan 2019 – Feb 2019',
@@ -171,18 +173,30 @@ export const experience = [
 
 export const projects = [
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'GeoSponsorship',
+    desc: 'A demo mobile application app for students to apply for scholarships built with Flutter. Features a clean and smooth UI with great UX. The app has a CI/CD pipeline to release latest versions of the app through GitHub Actions.',
     link: 'https://example.com',
   },
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'Design Delivery',
+    desc: 'A Mobile App built with Flutter where Stores can register and post products such as jewellery and shoes t reach customers registered on the mobile platform. Couriers then deliver the product to the customer. The project si dependent on firebase for backend.',
     github: 'https://github.com/1hanzla100',
   },
   {
-    name: 'lorem ipsum',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+    name: 'Jobs Classified (DWBS)',
+    desc: 'A jobs classified platform for domestic workers. The platform allows job seekers to set their job preference and gets notified through SMS when a job match is found. In the development, I used Laravel, PHP web framework. Connected the application with Twillio SDK to send SMS to users as a background job using Laravel Scheduler and Job Queue.',
+    github: 'https://github.com/1hanzla100',
+    link: 'https://example.com',
+  },
+  {
+    name: 'Alpha-Grocery',
+    desc: 'A web platform for vegetables and cereals vendors to connect with buyers. The platform was developed with Laravel, PHP web development framework. Deployed the web application on Azure infrastructure.',
+    github: 'https://github.com/1hanzla100',
+    link: 'https://example.com',
+  },
+  {
+    name: 'Politico',
+    desc: 'An online voting web platform. The frontend is built with HTML5, CSS3 and Vanilla JS. The backend is an API built with Flask (Python web framework). The project was developed using a TDD approach with a code coverage and deployed on Heroku and GitHub Pages.',
     github: 'https://github.com/1hanzla100',
     link: 'https://example.com',
   },
