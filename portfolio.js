@@ -175,30 +175,27 @@ export const projects = [
   {
     name: 'GeoSponsorship',
     desc: 'A demo mobile application app for students to apply for scholarships built with Flutter. Features a clean and smooth UI with great UX. The app has a CI/CD pipeline to release latest versions of the app through GitHub Actions.',
-    link: 'https://example.com',
+    //link: '',
   },
   {
     name: 'Design Delivery',
-    desc: 'A Mobile App built with Flutter where Stores can register and post products such as jewellery and shoes t reach customers registered on the mobile platform. Couriers then deliver the product to the customer. The project si dependent on firebase for backend.',
-    github: 'https://github.com/1hanzla100',
+    desc: 'A Mobile App built with Flutter where Stores can register and post products such as jewellery and shoes to reach customers registered on the mobile platform. Couriers then deliver the product to the customer. The project si dependent on firebase for backend.',
+    github: 'https://github.com/ChegeBryan/design-delivery',
   },
   {
     name: 'Jobs Classified (DWBS)',
     desc: 'A jobs classified platform for domestic workers. The platform allows job seekers to set their job preference and gets notified through SMS when a job match is found. In the development, I used Laravel, PHP web framework. Connected the application with Twillio SDK to send SMS to users as a background job using Laravel Scheduler and Job Queue.',
-    github: 'https://github.com/1hanzla100',
-    link: 'https://example.com',
+    github: 'https://github.com/ChegeBryan/dwbs',
   },
   {
     name: 'Alpha-Grocery',
-    desc: 'A web platform for vegetables and cereals vendors to connect with buyers. The platform was developed with Laravel, PHP web development framework. Deployed the web application on Azure infrastructure.',
-    github: 'https://github.com/1hanzla100',
-    link: 'https://example.com',
+    desc: 'An e-commerce web platform for vegetables and cereals vendors to connect with buyers. The platform was developed with Laravel, PHP web development framework. Deployed the web application on Azure infrastructure.',
+    github: 'https://github.com/ChegeBryan/alphagrocery',
   },
   {
     name: 'Politico',
     desc: 'An online voting web platform. The frontend is built with HTML5, CSS3 and Vanilla JS. The backend is an API built with Flask (Python web framework). The project was developed using a TDD approach with a code coverage and deployed on Heroku and GitHub Pages.',
-    github: 'https://github.com/1hanzla100',
-    link: 'https://example.com',
+    github: 'https://github.com/ChegeBryan/politico',
   },
 ];
 
