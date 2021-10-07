@@ -5,7 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Brian",
   description:
     'A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / ReactJs / VueJs / Python / Django / Flask / PHP / Laravel and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.',
-  resumeLink: 'https://cv.hanzla.ga',
+  resumeLink: 'https://1drv.ms/w/s!AtD6sv5O4-S1hGUVv0Z75LxVFwLn?e=ZawA6f',
 };
 
 export const openSource = {
