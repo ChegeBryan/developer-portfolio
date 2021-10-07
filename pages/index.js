@@ -19,11 +19,11 @@ export default function Home({ githubProfileData }) {
     <div>
       <SEO
         data={{
-          title: 'Hanzla Tauqeer',
+          title: 'Chege Brian',
           description:
             'A passionate Full Stack Web Developer and Mobile App Developer.',
-          image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-          url: 'https://developer-portfolio-1hanzla100.vercel.app',
+          image: 'https://avatars.githubusercontent.com/ChegeBryan',
+          url: 'https://chegebrian-portfolio.vercel.app/',
           keywords: [
             'Chege',
             'Chege Brian',
