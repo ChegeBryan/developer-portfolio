@@ -25,6 +25,7 @@ export const skillsSection = {
   subTitle:
     'AM A PASSIONATE WEB DEVELOPER / MOBILE DEVELOPER WHO LOVES TO SOLVE PROBLEMS THROUGH CODE',
   skills: [
+    emoji('⚡ Develop smooth and beautiful mobile UI with great UX'),
     emoji(
       '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
     ),
@@ -43,20 +44,8 @@ export const skillsSection = {
       fontAwesomeClassname: 'vscode-icons:file-type-css',
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'logos:sass',
-    },
-    {
       skillName: 'JavaScript',
       fontAwesomeClassname: 'logos:javascript',
-    },
-    {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'vscode-icons:file-type-reactjs',
-    },
-    {
-      skillName: 'vuejs',
-      fontAwesomeClassname: 'vscode-icons:file-type-vue',
     },
     {
       skillName: 'flutter',
@@ -69,10 +58,6 @@ export const skillsSection = {
     {
       skillName: 'sql-database',
       fontAwesomeClassname: 'vscode-icons:file-type-sql',
-    },
-    {
-      skillName: 'mongoDB',
-      fontAwesomeClassname: 'vscode-icons:file-type-mongo',
     },
     {
       skillName: 'gcp',
@@ -95,15 +80,15 @@ export const skillsSection = {
 
 export const SkillBars = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
-  },
-  {
-    Stack: 'Backend',
+    Stack: 'Mobile',
     progressPercentage: '70',
   },
   {
-    Stack: 'Mobile',
+    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+    progressPercentage: '80', //Insert relative proficiency in percentage
+  },
+  {
+    Stack: 'Backend',
     progressPercentage: '70',
   },
 ];
